@@ -1,0 +1,31 @@
+:root {
+        /* CSS HEX */
+    --black: rgb(25, 24, 26);
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffffffff;
+
+}
+header {
+    text-align: center;
+}
+
+#menu {
+    background-color:var(--oxford-blue);
+    text-align: center;
+}
+#menu .buttons{
+    display: inline-block; 
+    text-align: center;
+    font-size: 20pt;
+    margin-inline: 100px;
+}
+a: {
+    color: tomato;
+}
+#logo  {
+    width: 600px;
+    height: 250px;
+    margin: 20px;
+}
